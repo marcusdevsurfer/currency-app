@@ -147,8 +147,9 @@ const styles = StyleSheet.create({
   gradientBackground: {
     flex: 1,
     width: '100%',
+    height: '100%', 
+    justifyContent: 'center',
     alignItems: 'center',
-    position: 'fixed',
   },
   contentBackground: {
     backgroundColor: '#f4f4f4',
